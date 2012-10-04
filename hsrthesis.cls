@@ -37,8 +37,8 @@
 		\begin{titlepage}
 		% Logos
 		\begin{picture}(0,200)(0,-100)
-      		\put(-50, -30){\includegraphics[height=30mm]{images/hsrlogo.png}}
-      		\put(250, -15){\includegraphics[height=20mm]{images/partnerlogo.png}}
+      		\put(-60, -30){\includegraphics[height=30mm]{images/hsrlogo.png}}
+      		\put(200, -15){\includegraphics[height=20mm]{images/partnerlogo.png}}
 		\end{picture}
 
 		% title
@@ -78,7 +78,7 @@
        \mdseries\upshape\large
        \vspace{.5em}%
        \@author, \@date\\
-                                % \rule{\textwidth}{.5mm}\\
+	% \rule{\textwidth}{.5mm}\\
      \end{flushleft}
      \@thanks
      \par
