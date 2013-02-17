@@ -15,4 +15,4 @@ A LaTex template for different types of Thesises at [HSR](http://www.hsr.ch "HSR
 This template is made to get students startet with LaTex. Please help to make this even better.
 
 ## Preview ##
-![Preview of the generated pdf](https://github.com/fbentele/HSR-LaTex-Template/blob/master/images/preview.png "The preview of the title page")
+![Preview of the generated pdf](https://raw.github.com/fbentele/HSR-LaTex-Template/master/images/preview.png "The preview of the title page")
