@@ -1,3 +1,7 @@
+% rubber: watch main.glo
+% rubber: watch main.idx
+% rubber: watch index/literaturverzeichnis.bib
+%
 % HSR LaTex Template
 % Copyright 2012, Florian Bentele
 %
@@ -21,27 +25,26 @@
 % Public License along with this document. If not, see
 % <http://www.gnu.org/licenses/>.
 %
-% rubber: watch main.glo
 
 \documentclass[11pt,twoside]{hsrthesis}
 
 \makeindex
 
 % do this here, so you can \gls{...} to it
-\input{glossar}
+\input{index/glossar}
 \makeglossaries
 
 \begin{document}
 
-\input{01title}
-\input{02abstract}
+\input{chapter/01title}
+\input{chapter/02abstract}
 
 \tableofcontents
 
 
 % The main content
 %%%%%%%%%%%%%%%%%%
-\input{03introduction}
+\input{chapter/03introduction}
 % \input{analysis}
 % ...
 
@@ -49,13 +52,13 @@
 % List of figures & glossary
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \listoffigures
-\printglossary[style=altlist,title=Glossary]
+\printglossary[style=altlist,title=Glossar]
 
 
 % Bibliography
 %%%%%%%%%%%%%%
-\bibliographystyle {unsrt}
-\bibliography{literaturverzeichnis}
+\bibliographystyle {alpha}
+\bibliography{index/bibliography}
 
 
 % Attached sources
