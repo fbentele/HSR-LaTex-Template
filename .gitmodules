@@ -1,3 +1,0 @@
-[submodule "bin/texbuild"]
-	path = bin/texbuild
-	url = git://github.com/pbiggar/texbuild.git

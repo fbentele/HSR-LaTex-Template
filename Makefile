@@ -3,14 +3,16 @@
 #
 
 MAIN_TEX = main.tex
-MAIN_GLO = main.glo
 
 # Don't ask me why.
-all: texbuild
+all: build
 
-texbuild:
-	@@makeglossaries $(MAIN_GLO)
-	@@./bin/texbuild/texbuild $(MAIN_TEX)
+build:
+	@@./bin/latexmk.pl -pdf main.tex
 
 clean:
-	@@rm main.aux main.glo main.idx main.ist main.lof main.out main.pdf main.toc main.glg main.gls *.log main.bbl main.blg main.dvi main.fls t.aux t.pdf
+	@@rm main.aux main.glo main.idx main.ist 
+	@@rm main.lof main.out main.pdf main.toc 
+	@@rm main.glg main.gls *.log main.bbl 
+	@@rm main.blg main.fdb_latexmk main.fls main.ilg
+	@@rm main.ind

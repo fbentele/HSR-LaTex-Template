@@ -64,3 +64,4 @@ Thumbs.db
 *.synctex.gz
 *.bak
 *.fls
+*.fdb_latexmk
