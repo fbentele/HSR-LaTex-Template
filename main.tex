@@ -20,14 +20,16 @@
 % You should have received a copy of the GNU General
 % Public License along with this document. If not, see
 % <http://www.gnu.org/licenses/>.
+%
+% rubber: watch main.glo
 
 \documentclass[11pt,twoside]{hsrthesis}
 
 \makeindex
 
 % do this here, so you can \gls{...} to it
-%\input{glossar}
-%\makeglossaries
+\input{glossar}
+\makeglossaries
 
 \begin{document}
 
@@ -46,19 +48,19 @@
 
 % List of figures & glossary
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \listoffigures
-% \printglossary[style=altlist,title=Glossary]
+\listoffigures
+\printglossary[style=altlist,title=Glossary]
 
 
 % Bibliography
 %%%%%%%%%%%%%%
-% \bibliographystyle {unsrt}
-% \bibliography{literaturverzeichnis}
+\bibliographystyle {unsrt}
+\bibliography{literaturverzeichnis}
 
 
 % Attached sources
 %%%%%%%%%%%%%%%%%%
-% \input{attachements}
+ \input{attachments}
 
 
 \end{document}	
