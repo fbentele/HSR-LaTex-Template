@@ -26,8 +26,20 @@
 \usepackage{url}
 \usepackage{float}
 \usepackage{natbib}
+\usepackage{tabularx}
+\usepackage{booktabs}
 \definecolor{lightgrey}{rgb}{.9,.9,.9}
 
+
+% Table Stylings
+% http://tex.stackexchange.com/a/13748
+%%%%%%%%%%%%%%%%%%%%
+
+\newcommand*\heading[1]{\bfseries{#1}}
+\newcommand*\beforeheading{\toprule}
+\newcommand*\afterheading{\midrule}
+\newcommand*\normalline{}
+\newcommand*\lastline{\bottomrule}
 
 
 % Titlepage
